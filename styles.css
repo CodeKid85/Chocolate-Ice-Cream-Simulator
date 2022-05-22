@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(228,212,200);
+}
+
+
+.Title {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    text-align: center;
+    font-size: 70px;;
+    margin-bottom: 20vh;
+    margin-top: 10vh;
+    color: rgb(41,25,14);
+}
+
+.MenuBtn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: rgb(164, 117, 81);
+    color: rgb(41,25,14);
+    padding: 20px;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+#IceCream {
+    text-align: center;
+}
+
+#IceCream:active {
+  transform: 
+  translatey(0.5em) 
+  scale(0.97);
+}
+
+#IceCreamOrganizer {
+    text-align: center;
+    margin-top: -10vh;
+}
+
+#NumOfIceCream {
+    text-align: center;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#IceCreamPerClick {
+    text-align: center;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+}
+
+#MenuButton {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(164, 117, 81);
+    color: rgb(41,25,14);
+    padding: 5px;
+}
+
+.Story {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:xx-large;
+    text-align: center;
+    color: rgb(41,25,14);
+}
+
+#PlayButton {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    font-size: xx-large;
+    color: rgb(41,25,14);
+    background-color: rgb(164, 117, 81);
+    border-radius: 5px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#PlayButton:active {
+    transform: 
+    translatey(0.5em) 
+    scale(0.97);
+  }
+
+#PlayButtonOrganizer {
+    text-align: center;
+}
